@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --firstcolor:#EEEEEE;
+    --secondcolor:#333333;
+    --thirdcolor:#5B5B5B;
+    --fourthcolor:#477CA7;
+    --fifthcolor:#EEEEEE;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+}
+#main{
+    margin:30px 8px;
+    padding:15px;
+    border-radius: 5px;
+    background-color: var(--fifthcolor);
+}
+#title{
+    padding-top: 60px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size:2.7rem;
+    color:var(--secondcolor);
+}
+#subtitle{
+    text-align: center;
+    padding-bottom: 25px;
+    color:var(--secondcolor);
+    font-size:1rem;
+    font-weight: 300;
+}
+#img-div{
+    background-color: #fff;
+}
+#image{
+    display:block;
+    margin:0 auto;
+    max-width:100%;
+}
+#img-caption{
+    text-align: center;
+    padding:25px 0;
+    color:var(--secondcolor);
+    font-size:1rem;
+}
+#headline{
+    padding:60px 0;
+    text-align: center;
+    font-size:1.3rem;
+}
+
+ul{  
+    max-width:550px;
+    margin:0 auto 50px auto;
+    line-height: 1.6;
+}
+li{
+    padding-bottom: 15px;
+    color:var(--thirdcolor);
+    font-size:1rem;
+}
+li span{
+    color:var(--secondcolor);
+    font-weight: 900;
+}
+#tribute-info p{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-style: italic;
+    color:var(--thirdcolor);
+}
+#tribute-info cite{
+    font-style: italic;
+    color:var(--thirdcolor)
+}
+#tribute-links{
+    text-align: center;
+    padding-bottom: 20px;
+    color:var(--secondcolor);
+}
+#tribute-link{
+    color:var(--fourthcolor);
+}
+@media screen and (max-width:768px) {
+    ul{  
+    max-width:450px;
+}
+}
+@media screen and (max-width:530px) {
+    ul{  
+    max-width:330px;
+}
+}
+@media screen and (max-width:530px) {
+    ul{  
+    max-width:280px;
+}
+}
